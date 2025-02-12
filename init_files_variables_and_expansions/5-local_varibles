@@ -1,2 +1,3 @@
-#!/bin/bsh
-(set -o posix; set; printenv) | less; declare -F | less
+#!/bin/bash
+printenv
+set
